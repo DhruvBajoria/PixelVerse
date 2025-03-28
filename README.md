@@ -1,12 +1,93 @@
-# React + Vite
+# 🎮 **Gaming-Page**
+![React](https://img.shields.io/badge/React-19.x-blue)
+![GSAP](https://img.shields.io/badge/GSAP-3.x-green)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-blue)
+![Vite](https://img.shields.io/badge/Vite-6.x-purple)
+![License](https://img.shields.io/github/license/DhruvBajoria/Gaming-Page)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🌟 **Overview**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Gaming-Page** is a dynamic and interactive website built using **React.js**, **GSAP**, and **Tailwind CSS**.  
+It offers **scroll-triggered animations**, **stunning 3D effects**, and **immersive user interactions** for an engaging gaming-themed experience.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 **Features**
+
+✅ **Scroll-Based Animations:** GSAP-powered animations triggered by scrolling for engaging interactions.  
+✅ **Clip Path Transitions:** Unique `clip-path` shaped transitions create visually captivating effects.  
+✅ **3D Hover Effects:** Interactive 3D transformations responding to user actions.  
+✅ **Reusable Components:** Modular and reusable components for flexibility.  
+✅ **Fully Responsive:** Optimized for desktop, tablet, and mobile devices.  
+✅ **Dark & Light Mode:** Dynamic theme switching with Tailwind.  
+
+---
+
+## 🛠️ **Tech Stack**
+
+- ⚡ **Frontend:** React.js  
+- 🎨 **Styling:** Tailwind CSS  
+- 🚀 **Animations:** GSAP (GreenSock Animation Platform)  
+- 🔥 **Build Tool:** Vite  
+- 🔍 **Linting:** ESLint  
+- 🌐 **Icons & Hooks:**  
+    - `react-icons` for SVG icons  
+    - `react-use` for custom hooks  
+
+---
+
+## 📌 **Architecture & Component Flow**
+
+```mermaid
+graph TD;
+    A[App.jsx] -->|Imports| B[Components];
+    A --> D[Styles];
+    A --> E[Assets];
+
+    B --> F[Hero Section];
+    B --> G[Game Cards];
+    B --> H[Footer];
+
+    F --> I[Video Frame];
+    G --> J[GSAP Animations];
+    H --> K[Social Links];
+```
+---
+
+ ⚙️ **Installation & Setup**
+
+### 🔹 **Prerequisites**
+Ensure you have the following installed:
+
+- **Node.js** (v18 or later)  
+- **npm** (Node Package Manager)  
+- **Vite** (For faster development)  
+
+### 🔹 **Clone the Repository**
+```bash
+git clone https://github.com/DhruvBajoria/Gaming-Page.git
+cd Gaming-Page
+```
+---
+
+## 🤝 Contributing
+
+Want to improve this project? Follow these steps: 
+- 1️⃣ **Fork the repository**. 
+- 2️⃣ **Create a new branch** (`git checkout -b feature-branch`). 
+- 3️⃣ **Commit changes** (`git commit -m 'Added new feature'`). 
+- 4️⃣ **Push to the branch** (`git push origin feature-branch`).
+- 5️⃣ **Open a Pull Request**.
+
+---
+
+## 📩 Contact
+
+For queries, connect with me:
+
+- **GitHub**: [DhruvBajoria](https://github.com/DhruvBajoria)
+- **LinkedIn**: [Dhruv Bajoria](https://www.linkedin.com/in/dhruv-bajoria-ab25b21ab/)
+
+💡 **Like this project? Give it a star ⭐️!**
