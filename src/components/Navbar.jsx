@@ -6,12 +6,12 @@ import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button";
 
-const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+const navItems = ["Explore", "Quests", "Universe", "About", "Contact"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator
-  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(true);
+  const [isIndicatorActive, setIsIndicatorActive] = useState(true);
 
   // Refs for audio and navigation container
   const audioElementRef = useRef(null);
@@ -56,8 +56,8 @@ const NavBar = () => {
 
   useEffect(() => {
     gsap.to(navContainerRef.current, {
-      y: isNavVisible ? 0 : -100,
-      opacity: isNavVisible ? 1 : 0,
+      y: isNavVisible ? 0 : -120,
+      opacity: isNavVisible ? 1 : 0.8,
       duration: 0.2,
     });
   }, [isNavVisible]);
@@ -77,7 +77,7 @@ const NavBar = () => {
               id="product-button"
               title="Products"
               rightIcon={<TiLocationArrow />}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+              containerClass="bg-blue-50 md:flex hidden items-center justi"
             />
           </div>
 
@@ -88,7 +88,7 @@ const NavBar = () => {
                 <a
                   key={index}
                   href={`#${item.toLowerCase()}`}
-                  className="nav-hover-btn"
+                  className="nav-hover-btn transition-all duration-300 text-blue-50 hover:text-[#4ade80] hover:scale-110"
                 >
                   {item}
                 </a>

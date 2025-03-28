@@ -41,11 +41,11 @@ const Hero = () => {
         gsap.set("#next-video", { visibility: "visible" });
         gsap.to("#next-video", {
           transformOrigin: "center center",
-          scale: 1,
+          scale: 1.2,
           width: "100%",
           height: "100%",
-          duration: 1,
-          ease: "power1.inOut",
+          duration: 6.5,
+          ease: "elastic.out(1, 0.5)",
           onStart: () => nextVdRef.current.play(),
         });
         gsap.from("#current-video", {
@@ -142,22 +142,22 @@ const Hero = () => {
         </div>
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          G<b>A</b>MING
+          G<b>A</b>MI<b>N</b>G
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-blue-100">
-              redefi<b>n</b>e
+            <h1 className="special-font hero-heading  text-yellow-300">
+              re<b>d</b>efi<b>n</b>e
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Enter the Metagame Layer <br /> Unleash the Play Economy
+              Step into Pixelverse <br /> Where Imagination Meets Reality
             </p>
 
             <Button
               id="watch-trailer"
-              title="Watch trailer"
+              title="Explore Pixelverse"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />
@@ -166,7 +166,7 @@ const Hero = () => {
       </div>
 
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        G<b>A</b>MING
+        G<b>A</b>MI<b>N</b>G
       </h1>
     </div>
   );
