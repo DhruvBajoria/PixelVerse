@@ -26,8 +26,7 @@ It offers **scroll-triggered animations**, **stunning 3D effects**, and **immers
 ✅ **Clip Path Transitions:** Unique `clip-path` shaped transitions create visually captivating effects.  
 ✅ **3D Hover Effects:** Interactive 3D transformations responding to user actions.  
 ✅ **Reusable Components:** Modular and reusable components for flexibility.  
-✅ **Fully Responsive:** Optimized for desktop, tablet, and mobile devices.  
-✅ **Dark & Light Mode:** Dynamic theme switching with Tailwind.  
+✅ **Fully Responsive:** Optimized for desktop, tablet, and mobile devices.   
 
 ---
 
