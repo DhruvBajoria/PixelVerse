@@ -14,6 +14,12 @@ It offers **scroll-triggered animations**, **stunning 3D effects**, and **immers
 
 ---
 
+## 🌐 **Live Demo**
+🎯 Check out the live version of **PixelVerse** deployed on Render:  
+🔗 [PixelVerse Live](https://pixelverse-phzp.onrender.com)
+
+---
+
 ## 🎯 **Features**
 
 ✅ **Scroll-Based Animations:** GSAP-powered animations triggered by scrolling for engaging interactions.  
