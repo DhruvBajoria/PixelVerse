@@ -1,3 +1,6 @@
+![PixelVerse Banner](./banner.png)
+
+
 # 🎮 **Gaming-Page**
 ![React](https://img.shields.io/badge/React-19.x-blue)
 ![GSAP](https://img.shields.io/badge/GSAP-3.x-green)
@@ -96,3 +99,5 @@ For queries, connect with me:
 - **LinkedIn**: [Dhruv Bajoria](https://www.linkedin.com/in/dhruv-bajoria-ab25b21ab/)
 
 💡 **Like this project? Give it a star ⭐️!**
+
+![PixelVerse Banner2](./banner2.png)
